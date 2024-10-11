@@ -1,7 +1,11 @@
-import HomePage from './Pages/HomePage';
-import ProfilesPage from './Pages/ProfilesPage';
-import ProfilePage from './Pages/ProfilePage';
-import NotFoundPage from './Pages/NotFoundPage';
+import HomePage from './Pages/RestaurantHomePage';
+import ReservationPage from './Pages/ReservationPage';
+import EList from './Pages/EList';
+import ContactUs from './Pages/ContactUs';
+
+
+
+
 
 import  ReactDOM  from 'react-dom/client'
 import React from 'react'
@@ -11,20 +15,23 @@ import './index.css'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <HomePage />,
-    errorElement: <NotFoundPage />
   },
   {
-    path: '/profiles',
-    element: <ProfilesPage />,
-    children: [
-      {
-        path: '/profiles/:profileId',
-        element: <ProfilePage />,
-      },
-    ]
+    path: "/reservation/",
+    element: <ReservationPage />,
   },
+  {
+    path: "/e-list",
+    element: <EList />,
+  },
+  {
+    path: "/contact-us",
+    element: <ContactUs />,
+  }
+
+ 
 ]);
 
 
