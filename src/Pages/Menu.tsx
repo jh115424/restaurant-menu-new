@@ -1,16 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./restaurantHomePage.css";
+import './menu.css'
 
-export default function RestaurantHomePage() {
+
+export default function Menu() {
   return (
     <>
-      <div className="container">
-        <div className="name">
-          <h1>Partania's Mediterranean Bistro</h1>
-        </div>
-        <div className="Main-Header">
-          <li>
+      
+      <div className="Second-Header">
+      <li><Link to="/">Home</Link></li>
+      <li>
             <Link to="/e-list">JOIN E-LIST</Link>
           </li>
           <li>
@@ -19,9 +18,8 @@ export default function RestaurantHomePage() {
           <li>
             <Link to="/contact-us">CONTACT US</Link>
           </li>
-        </div>
+      
       </div>
-  
     </>
   );
 }

@@ -1,23 +1,23 @@
-.e-list-container {
+.reservation-container {
     display: flex;
     align-items: center;
     list-style: none;
     justify-content: space-between;
     background-color: rgba(81, 81, 81, 1);
-    color: white;
-}
-
-.e-list-header {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    font-family: cursive;
-    font-weight: bolder;
- 
+    color: white; 
 }
 
 .name {
     font-family: cursive;
     font-weight: bolder;
-    font-size: 12px;
+    /* font-size: 12px; */
+}
+
+
+.Reservation-Main-Header{
+    display: flex;
+
+    list-style: none;
+    gap: 30px;
+
 }

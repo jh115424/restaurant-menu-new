@@ -2,6 +2,7 @@ import HomePage from './Pages/RestaurantHomePage';
 import ReservationPage from './Pages/ReservationPage';
 import EList from './Pages/EList';
 import ContactUs from './Pages/ContactUs';
+import Menu from './Pages/Menu';
 
 
 
@@ -28,8 +29,15 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact-us",
-    element: <ContactUs />,
-  }
+    element: <ContactUs setUserData={function (data: { name: string; email: string; message: string; }): void {
+      // throw new Error('Function not implemented.');
+    } } userData={undefined} />,
+  },
+  {
+    path: "/menu",
+    element: <Menu/>,
+  },
+  
 
  
 ]);

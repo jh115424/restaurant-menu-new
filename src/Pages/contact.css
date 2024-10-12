@@ -1,0 +1,60 @@
+
+
+
+.Contact-Header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+    background-color: rgba(81, 81, 81, 1);
+
+    text-decoration: none;
+    display: flex;
+    font-family: cursive;
+    list-style: none;
+    gap: 30px;
+}
+
+.contact-container {
+    background-color: rgba(81, 81, 81, 1);
+    display: flex;
+    justify-content: end;
+    justify-content: space-between;
+
+}
+
+
+.name {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+input,
+textarea, button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+}
+
+
+

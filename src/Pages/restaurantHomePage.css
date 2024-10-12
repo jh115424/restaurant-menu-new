@@ -7,6 +7,7 @@
     justify-content: space-between;
     background-color: rgba(81, 81, 81, 1);
     color: white;
+ 
 }
 
 .name {
@@ -21,9 +22,16 @@
 
 }
 
-.Main-Header {
+.Main-Header{
     display: flex;
+
     list-style: none;
     gap: 30px;
 
 }
+
+
+a {
+    color: #FFF;
+  }
+
