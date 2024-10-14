@@ -1,60 +1,101 @@
-
-
+/* .ContactUs {
+    
+        background-color: lightskyblue;
+   
+} */
 
 .Contact-Header {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  
-    background-color: rgba(81, 81, 81, 1);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: rgba(81, 81, 81, 1);
 
-    text-decoration: none;
-    display: flex;
-    font-family: cursive;
-    list-style: none;
-    gap: 30px;
+  text-decoration: none;
+  display: flex;
+  font-family: cursive;
+  list-style: none;
+  gap: 30px;
 }
 
 .contact-container {
-    background-color: rgba(81, 81, 81, 1);
-    display: flex;
-    justify-content: end;
-    justify-content: space-between;
-
+  background-color: rgba(81, 81, 81, 1);
+  display: flex;
+  justify-content: end;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
 }
-
 
 .name {
-    font-family: cursive;
-    font-weight: bolder;
-    font-size: 12px;
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 12px;
 }
 
-.form-container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 50%;
-    margin-top: 20px;
-    background-color: aliceblue;
+img {
+  width: -webkit-fill-available;
+  max-height: 150px;
+  display: block;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  width: 30%;
+  box-shadow: 5px 5px lightgray;
+  height: 510px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+
+  margin-right: auto;
+  margin-left: auto;
 }
 
 input,
-textarea, button{
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid black;
-    font-size: 16px;
-    font-weight: 600;
-    color: black;
-    background-color: white;
+textarea,
+button {
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(168, 163, 163);
+  font-size: 16px;
+  font-weight: 600;
+
+  color: black;
+  background-color: white;
+  width: 400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
+.email-sign-up {
+  font-size: xx-small;
+  color: rgb(100, 95, 95);
+}
 
+.email-sign-up:hover {
+    color: lightgray;
+}
 
+.button {
+    background-color: #2b4fb9;
+    color: white;
+    width: 100px;
+}
+.terms {
+    text-align: center;
+    font-size: 12px;
+    width: 50%;
+  
+}

@@ -6,8 +6,7 @@
     list-style: none;
     justify-content: space-between;
     background-color: rgba(81, 81, 81, 1);
-    color: white;
- 
+
 }
 
 .name {
@@ -22,13 +21,22 @@
 
 }
 
-.Main-Header{
+.Reservation-Main-Header{
     display: flex;
-
+     font-family: cursive;
     list-style: none;
     gap: 30px;
 
 }
+.Main-Header{
+    display: flex;
+     font-family: cursive;
+    list-style: none;
+    gap: 30px;
+
+}
+
+
 
 
 a {

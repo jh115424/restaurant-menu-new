@@ -1,23 +1,20 @@
 .reservation-container {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    justify-content: space-between;
-    background-color: rgba(81, 81, 81, 1);
-    color: white; 
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  background-color: rgba(81, 81, 81, 1);
 }
 
 .name {
-    font-family: cursive;
-    font-weight: bolder;
-    /* font-size: 12px; */
+  font-family: cursive;
+  font-weight: bolder;
+  /* font-size: 12px; */
 }
 
+.Reservation-Main-Header {
+  display: flex;
 
-.Reservation-Main-Header{
-    display: flex;
-
-    list-style: none;
-    gap: 30px;
-
+  list-style: none;
+  gap: 30px;
 }
