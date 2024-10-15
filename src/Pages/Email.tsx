@@ -9,13 +9,17 @@ interface EmailProps {
 
 export function Email({name, email, message}: EmailProps) {
  
+ 
+return (
+   
+ <Html>
+ <Button href={`mailto:${email}`}>
+     Send email to {name}
+ </Button>
+ <p>{message}</p>
+ </Html> 
+)
 
-    return (
-        <Html>
-            <Button href={`mailto:${email}`}>
-                Send email to {name}
-            </Button>
-            <p>{message}</p>
-        </Html>
-    );
 }
+
+

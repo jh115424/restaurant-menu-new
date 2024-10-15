@@ -36,10 +36,13 @@
 
 }
 
-
-
-
 a {
     color: #FFF;
   }
 
+
+img.main-image {
+    width: -webkit-fill-available;
+    min-height: 425px;
+    display: block;
+  }

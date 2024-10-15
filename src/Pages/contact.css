@@ -37,6 +37,7 @@ img {
   width: -webkit-fill-available;
   max-height: 150px;
   display: block;
+  object-position: bottom;
 }
 
 .form-container {

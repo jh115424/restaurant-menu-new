@@ -7,12 +7,12 @@ const mailerSend: MailerSend = new MailerSend({
     apiKey: process.env.MAILERSEND_API_KEY || '',
 });
 
-const emailHtml = await render(<Email name="Jennifer Hodge" email="jennifer.hodge@russdarrow.com" message="Hello, this is a test email." />);
+const emailHtml = await render(<Email name="Jennifer Hodge" email="jenniferehodge1@gmail.com" message="Hello, this is a test email." />);
 
-const sentFrom = new Sender("jennifer.hodge@russdarrow.com", "Jennifer Hodge");
+const sentFrom = new Sender("jenniferehodge1@gmail.com", "Jennifer Hodge");
 
 const recipients = [
-    new Recipient("jennifer.hodge@russdarrow.com", "Jennifer Hodge"),
+    new Recipient("jenniferehodge1@gmail.com", "Jennifer Hodge"),
 ];
 
 

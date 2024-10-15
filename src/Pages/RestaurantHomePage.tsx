@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./restaurantHomePage.css";
+import mainImage from './images/mainImage.jpeg'
 
 export default function RestaurantHomePage() {
   return (
@@ -21,6 +22,7 @@ export default function RestaurantHomePage() {
           </li>
         </div>
       </div>
+      <img src={mainImage} alt="salmon" className="main-image" />
   
     </>
   );
