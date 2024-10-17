@@ -48,16 +48,16 @@ export default function ContactUs({
           </div>
           <div className="Contact-Header">
             <li>
-              <Link to="/">Home</Link>
+              <Link style={{textDecoration: 'none'}} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/e-list">JOIN E-LIST</Link>
+              <Link style={{textDecoration: 'none'}} to="/e-list">JOIN E-LIST</Link>
             </li>
             <li>
-              <Link to="/reservation">RESERVATIONS</Link>
+              <Link style={{textDecoration: 'none'}} to="/reservation">RESERVATIONS</Link>
             </li>
             <li>
-              <Link to="/contact-us">CONTACT US</Link>
+              <Link style={{textDecoration: 'none'}} to="/contact-us">CONTACT US</Link>
             </li>
           </div>
         </div>

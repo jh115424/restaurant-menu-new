@@ -2,7 +2,9 @@ import HomePage from './Pages/RestaurantHomePage';
 import ReservationPage from './Pages/ReservationPage';
 import EList from './Pages/EList';
 import ContactUs from './Pages/ContactUs';
-import Menu from './Pages/Menu';
+import Menus from './Pages/Menus';
+import  Interior  from './Pages/Interior';
+
 
 
 
@@ -34,9 +36,15 @@ const router = createBrowserRouter([
     } } userData={undefined} />,
   },
   {
-    path: "/menu",
-    element: <Menu/>,
+    path: "/menus",
+    element: <Menus/>,
   },
+  {
+    path: "/interior",
+    element: <Interior/>,
+  },
+
+
   
 
  
