@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Contact.css";
-import { useState } from "react";
 import salmonHeader from "./images/salmonHeader.png";
-import { MailerSend } from "mailersend";
 
 export default function ContactUs({
   setUserData,
-  userData,
 }: {
   setUserData: (data: { name: string; email: string; message: string }) => void;
   userData: any;
