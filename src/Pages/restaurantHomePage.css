@@ -103,13 +103,9 @@ img.interior-page-image-banner {
 .space-buttons {
   display: flex;
   gap: 10px;
-  top: 275%;
-  left: 100px;
-  right: 100px;
-
+  bottom: 130px;
   justify-content: center;
-  position: absolute;
-
+  position: relative;
   border-radius: 5px;
 }
 
