@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Contact.css";
+import "./contact.css";
 import salmonHeader from "./images/salmonHeader.png";
 
 export default function ContactUs({
