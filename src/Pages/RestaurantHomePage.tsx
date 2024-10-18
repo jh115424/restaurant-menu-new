@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./restaurantHomePage.css";
 import mainImage from "./images/mainImage.jpeg";
 import celebrate from "./images/celebrate.jpg";
+import dinnerPrepare from "./images/dinnerPrepare.png";
 
 export default function RestaurantHomePage() {
   return (
@@ -87,23 +88,64 @@ export default function RestaurantHomePage() {
           </div>
         </div>
       </div>
+
       <div className="menu-options-container">
         <div className="menu-options-banner">
           <h1 className="menu-intro-title">OUR MENUS</h1>
-         
-
-        </div>
-        <div className="bottom-menu-page-button">
-            <Link
-              style={{ textDecoration: "none" }}
-              to="/interior"
-              className="interior"
-            >
-              MENU
-            </Link>
+          <div className="menu-and-private-button-container">
+            <div className="bottom-menu-page-button">
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/interior"
+                className="interior"
+              >
+                MENU
+              </Link>
+            </div>
+            <div className="private-menu-button">
+              <Link
+                style={{ textDecoration: "none" }}
+                to="/private-events"
+                className="private-events"
+              >
+                PRIVATE EVENTS
+              </Link>
+            </div>
           </div>
-       
+        </div>
       </div>
+
+      <div className="serving-container">
+        <div className="event-planning">
+          <h1>
+            Looking to Have Your <br></br>Next Event at Partania's?
+          </h1>
+          <h1 className="sub-header">PRIVATE SPACE</h1>
+          <hr />
+          <div className="event-rules">
+            <h5>Seated:</h5>
+            <p>75 guests</p>
+            <br />
+            <h5>Reception-style:</h5>
+            <p>150 guests</p>
+            <br />
+            <h5>Elevator:</h5>
+            <p>No</p>
+            <br />
+            <h5>Restaurant Buy-Outs:</h5>
+            <p>Yes (Sun-Thurs only)</p>
+          </div>
+        </div>
+
+        <div className="event-planning-image">
+          <img
+            src={dinnerPrepare}
+            alt="dinner prepare"
+            className="event-planning-image"
+          />
+        </div>
+      </div>
+
       <div className="footer">
         <p>2024 Partania's Mediterranean Bistro</p>
       </div>

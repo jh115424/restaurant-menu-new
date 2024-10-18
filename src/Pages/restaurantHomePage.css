@@ -63,7 +63,7 @@ img.interior-page-image-banner {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
   background-color: rgba(47, 50, 53, 0.72);
-  border: 3px solid #747272;
+  border: 2px solid white;
 }
 
 .history-header {
@@ -103,7 +103,7 @@ img.interior-page-image-banner {
 .space-buttons {
   display: flex;
   gap: 10px;
-  top: 325%;
+  top: 275%;
   left: 100px;
   right: 100px;
 
@@ -114,7 +114,8 @@ img.interior-page-image-banner {
 }
 
 .interior-page-button,
-.interior-page-eList-button {
+.interior-page-eList-button,
+.bottom-menu-page-button {
   display: flex;
   text-align: center;
   border-radius: 5px;
@@ -124,8 +125,9 @@ img.interior-page-image-banner {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
   background-color: rgba(47, 50, 53, 0.72);
-  border: 3px solid #747272;
+  border: 2px solid white;
 }
+
 .interior-page-button:hover {
   background-color: rgba(255, 255, 255, 0.72);
   color: rgb(47, 50, 53);
@@ -147,10 +149,6 @@ a {
   margin-bottom: auto;
 }
 
-.menu-options-container {
-  
-}
-
 .menu-options-banner {
   padding: 10px;
   height: 300px;
@@ -165,16 +163,15 @@ a {
 }
 
 .menu-intro-title {
-
   margin-top: 50px;
   line-height: 60px;
-    letter-spacing: 2px;
-    color: white;
-    font-family: adobe-caslon-pro, serif;
-
+  letter-spacing: 2px;
+  color: white;
+  font-family: adobe-caslon-pro, serif;
 }
 
-.bottom-menu-page-button {
+.bottom-menu-page-button,
+.private-menu-button {
   display: flex;
   text-align: center;
   border-radius: 5px;
@@ -184,6 +181,84 @@ a {
   color: rgb(255, 255, 255);
   border-color: rgb(255, 255, 255);
   background-color: rgba(47, 50, 53, 0.72);
-  border: 3px solid #747272;
+  border: 2px solid white;
+}
 
+.menu-and-private-button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.serving-container {
+  display: flex;
+}
+
+.bottom-menu-page-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+
+.private-menu-button:hover {
+  background-color: rgba(255, 255, 255, 0.72);
+  color: rgb(47, 50, 53);
+}
+
+.event-planning h1 {
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  color: #2f3235;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+img.event-planning-image {
+  max-height: 100%;
+  width: 60%;
+  height: 700px;
+  object-fit: cover;
+  float: right;
+}
+
+h1.sub-header {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.538461538461538em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+hr {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.event-rules {
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 400;
+  line-height: 0.4;
+
+  text-transform: none;
+  color: #2f3235;
+  margin-top: 30px;
+}
+
+.event-rules h5 {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #2f3235;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: sans-serif;
 }

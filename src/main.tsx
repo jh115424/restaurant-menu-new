@@ -4,6 +4,7 @@ import EList from './Pages/EList';
 import ContactUs from './Pages/ContactUs';
 import Menus from './Pages/Menus';
 import  Interior  from './Pages/Interior';
+import PrivateEvents from './Pages/PrivateEvents';
 
 
 
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/contact-us",
-    element: <ContactUs setUserData={function (data: { name: string; email: string; message: string; }): void {
+    element: <ContactUs setUserData={function (_data: { name: string; email: string; message: string; }): void {
       // throw new Error('Function not implemented.');
     } } userData={undefined} />,
   },
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
   {
     path: "/interior",
     element: <Interior/>,
+  },
+  {
+    path: "/private-events",
+    element: <PrivateEvents/>,
   },
 
 
