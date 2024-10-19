@@ -42,8 +42,9 @@ img.interior-page-image {
 
 img.interior-page-image-banner {
   width: -webkit-fill-available;
-  min-height: 425px;
+  min-height: 490px;
   display: block;
+
 
   /* position: absolute; */
 }
@@ -221,7 +222,6 @@ img.event-planning-image {
   max-height: 100%;
   width: 88%;
   height: 919px;
-  object-fit: cover;
   float: right;
 }
 
@@ -267,7 +267,8 @@ hr {
   background-color: #2f3235;
   color: white;
   display: flex;
-  margin-top: -1px;
+  flex-direction: column;
+  margin-top: -1.2px;
   justify-content: center;
   align-items: center;
   height: 125px;
