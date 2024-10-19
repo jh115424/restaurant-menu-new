@@ -109,6 +109,9 @@ img.interior-page-image-banner {
   border-radius: 5px;
 }
 
+.interior-page-container {
+}
+
 .interior-page-button,
 .interior-page-eList-button,
 .bottom-menu-page-button {
@@ -148,6 +151,7 @@ a {
 .menu-options-banner {
   padding: 10px;
   height: 300px;
+  margin-top: -55px;
   border-radius: 5px;
   text-align: center;
   font-family: cursive;
@@ -189,6 +193,7 @@ a {
 
 .serving-container {
   display: flex;
+  align-items: flex-end;
 }
 
 .bottom-menu-page-button:hover {
@@ -214,8 +219,8 @@ a {
 
 img.event-planning-image {
   max-height: 100%;
-  width: 60%;
-  height: 700px;
+  width: 88%;
+  height: 919px;
   object-fit: cover;
   float: right;
 }
@@ -229,16 +234,18 @@ h1.sub-header {
   color: #000000;
 }
 
+
 hr {
   width: 100px;
   margin-left: 20px;
 }
 
-.event-rules {
+.event-rules,
+.tax-rate {
   font-size: 18px;
   margin-left: 20px;
   font-weight: 400;
-  line-height: 0.4;
+  /* line-height: 0.4; */
 
   text-transform: none;
   color: #2f3235;
@@ -247,14 +254,24 @@ hr {
 
 .event-rules h5 {
   font-size: 20px;
+  line-height: 0.4;
+}
+
+.tax-rate h5 {
+  /* margin-top: 50px; */
+  font-size: 20px;
+  line-height: 0.4;
 }
 
 .footer {
   background-color: #2f3235;
   color: white;
   display: flex;
+  margin-top: -1px;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 125px;
   font-family: sans-serif;
+}
+.next-event-container {
 }

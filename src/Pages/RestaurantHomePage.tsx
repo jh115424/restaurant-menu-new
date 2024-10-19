@@ -118,7 +118,7 @@ export default function RestaurantHomePage() {
       <div className="serving-container">
         <div className="event-planning">
           <h1>
-            Looking to Have Your <br></br>Next Event at Partania's?
+            Looking to Have Your Next Event at Partania's?
           </h1>
           <h1 className="sub-header">PRIVATE SPACE</h1>
           <hr />
@@ -136,6 +136,19 @@ export default function RestaurantHomePage() {
             <p>Yes (Sun-Thurs only)</p>
           </div>
         </div>
+        <div className="tax-rate">
+          <h5>Sales Tax:</h5>
+          <p>8.4%</p>
+          <br />
+          <h5>Service Charge</h5>
+          <p>24%</p>
+          <br />
+          <h5>Parking:</h5>
+          <p>
+            Street parking (free after 6pm) Parking structures within 2 blocks
+            (Milwaukee St & corner of Water & N. Michigan Ave.)
+          </p>
+        </div>
 
         <div className="event-planning-image">
           <img
@@ -148,6 +161,10 @@ export default function RestaurantHomePage() {
 
       <div className="footer">
         <p>2024 Partania's Mediterranean Bistro</p>
+        <p>634 Michigan Ave, Chicago, IL 60601</p>
+        <p>Phone: 1-312-664-8737</p>
+        <p>Email:  info@partaniasmediterraneanbistro.com</p>
+        <p>We look forward to hosting you on one of our private events!</p>
       </div>
     </>
   );
