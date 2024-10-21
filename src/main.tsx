@@ -5,6 +5,7 @@ import ContactUs from "./Pages/ContactUs";
 import Menus from "./Pages/Menus";
 import Interior from "./Pages/Interior";
 import PrivateEvents from "./Pages/PrivateEvents";
+import SignUp from "./Pages/SignUp";
 
 import ReactDOM from "react-dom/client";
 import React from "react";
@@ -34,6 +35,7 @@ const router = createBrowserRouter([
           email: string;
           message: string;
         }): void {
+
           // throw new Error('Function not implemented.');
         }}
         userData={undefined}
@@ -52,6 +54,11 @@ const router = createBrowserRouter([
     path: "/private-events",
     element: <PrivateEvents />,
   },
+  {
+    path: "/sign-up",
+    element: <SignUp />,
+  }
+
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")!).render(

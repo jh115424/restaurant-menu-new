@@ -3,6 +3,12 @@ import "./restaurantHomePage.css";
 import mainImage from "./images/mainImage.jpeg";
 import celebrate from "./images/celebrate.jpg";
 import dinnerPrepare from "./images/dinnerPrepare.png";
+import footerLogo from "./images/footerLogo.webp";
+import ravioli from "./images/ravioli.jpg";
+import sandwich from "./images/sandwich.jpg";
+import salad from "./images/salad.jpg";
+import pesto from "./images/pesto.jpg";
+import choppedSteak from "./images/choppedSteak.jpg";
 
 export default function RestaurantHomePage() {
   return (
@@ -117,9 +123,7 @@ export default function RestaurantHomePage() {
 
       <div className="serving-container">
         <div className="event-planning">
-          <h1>
-            Looking to Have Your Next Event at Partania's?
-          </h1>
+          <h1>Looking to Have Your Next Event at Partania's?</h1>
           <h1 className="sub-header">PRIVATE SPACE</h1>
           <hr />
           <div className="event-rules">
@@ -158,14 +162,66 @@ export default function RestaurantHomePage() {
           />
         </div>
       </div>
+      <div className="guest-loyalty-container">
+        <div className="loyalty">
+          <h5>
+            PREFERRED GUEST LOYALTY<br></br>PROGRAM
+          </h5>
+          <h6>
+            START EARNING DELICIOUS REWARDS IN A<br></br>FEW SIMPLE CLICKS
+          </h6>
+          <p>
+            $1 = 1 POINT<br></br>150 POINTS = $15 REWARD
+          </p>
+          <p>
+            Rewards are redeemable at all Benson's Restaurant<br></br>Group
+            locations: The Edison, AJ Bombers, Blue Bat<br></br>Kitchen, Smoke
+            Shack, Onesto, and The Bridgewater
+            <img className="footer-image" src={footerLogo} alt="footer" />
+          </p>
+        </div>
 
-      <div className="footer">
+        <div className="sign-up">
+          THREE WAYS TO SIGN UP:
+          <p>1. online</p>
+          <p>2. Sign up at the restaurant</p>
+          <p>3. Text "PARTANIA" to 844-248-2672</p>
+          <div className="help">
+            <h4>Need assistance with loyalty?</h4>
+            <h4>Email us at loyalty@partania.com</h4>
+          </div>
+          <div className="loyalty-button">
+            <Link
+              style={{ textDecoration: "none" }}
+              to="/sign-up"
+              className="sign-up-button"
+            >
+              {" "}
+              SIGN UP
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="dinner-carousel">
+        
+        <img className="pic-slide" src={ravioli} alt="pic-slide" />
+        <img className="pic-slide" src={salad} alt="pic-slide" />
+        <img className="pic-slide" src={sandwich} alt="pic-slide" />
+        <img className="pic-slide" src={pesto} alt="pic-slide" />
+        <img className="pic-slide" src={choppedSteak} alt="pic-slide" /> 
+       
+
+      </div>
+      
+      {/* <div className="footer">
         <p>2024 Partania's Mediterranean Bistro</p>
         <p>634 Michigan Ave, Chicago, IL 60601</p>
         <p>Phone: 1-312-664-3746</p>
-        <p>Email:  info@partaniasmediterraneanbistro.com</p>
+        <p>Email: info@partaniasmediterraneanbistro.com</p>
         <p>We look forward to hosting you on one of our private events!</p>
-      </div>
+      </div> */}
+
+
     </>
   );
 }

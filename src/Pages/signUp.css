@@ -1,0 +1,11 @@
+.sign-up-container {
+    display: flex;
+    align-items: center;
+  
+    list-style: none;
+    justify-content: space-between;
+    background-color: rgba(81, 81, 81, 1);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
